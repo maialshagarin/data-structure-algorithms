@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --coverage --verbose",
     "watch": "jest --watchAll"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maialshagarin/data-structure-algorithms.git"
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/maialshagarin/data-structure-algorithms/issues"
   },
-  "homepage": "https://github.com/maialshagarin/data-structure-algorithms#readme"
+  "homepage": "https://github.com/maialshagarin/data-structure-algorithms#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
 }

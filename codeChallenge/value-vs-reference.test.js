@@ -109,7 +109,6 @@ console.log(a) prints [1, 2, 3, 4]
 const append = (arr1, arr2) => {
   // Solution code here...
   for( let i =0; i< arr2.length ; i++ ){
-      console.log("arr1.length ", arr1.length)
       arr1[ arr1.length] = arr2[i]
   }
 return arr1
