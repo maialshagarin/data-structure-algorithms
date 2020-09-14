@@ -1,0 +1,21 @@
+{
+  "name": "data-structure-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "watch": "jest --watchAll"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maialshagarin/data-structure-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maialshagarin/data-structure-algorithms/issues"
+  },
+  "homepage": "https://github.com/maialshagarin/data-structure-algorithms#readme"
+}
