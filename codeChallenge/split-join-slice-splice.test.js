@@ -37,15 +37,22 @@ let $ = createSnippetWithJQuery(`
 `);
 
 const templateWithJQuery = () => {
-  // Solution code here...
-  // var template = $('#template').html();
-  // starWarsPeople.forEach(element=>{
-  //   $('#template h2').append(element.name)
-  //   $('#template h3').append(element.height)
-  //   $('#template p').append(element.eye_color)
-  // })
-  // $('#template').append(domelement)
 
+  // console.log('main before' , $('main'))
+ starWarsPeople.forEach(item =>{
+
+  let template = $('#template').clone();
+  template.removeAttr("id");
+  template.find("h2").text(item.name)
+  template.find("h3").text(item.height)
+  template.find("p").text(item.eye_color)
+  template.appendTo('main')
+
+
+ })
+//  console.log('main after' , $('main'))
+
+  
 }
 
 /* ------------------------------------------------------------------------------------------------
